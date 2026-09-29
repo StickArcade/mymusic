@@ -497,7 +497,7 @@ if command -v batocera-save-overlay >/dev/null 2>&1; then
 else
     log "aviso: batocera-save-overlay nao encontrado"
 fi
-python3.14 -m pip install qrcode customtkinter > /dev/null 2>&1
+python3.14 -m pip install qrcode customtkinter Pillow> /dev/null 2>&1
 
 aviso "$COR_VERDE" "instalacao concluida."
 echo

